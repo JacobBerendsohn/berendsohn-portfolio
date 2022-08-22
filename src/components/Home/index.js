@@ -1,0 +1,48 @@
+import LogoTitle from '../../assets/images/j_letter.png';
+import { Link } from 'react-router-dom';
+import './index.scss';
+import { useState } from 'react';
+import AnimatedLetters from '../AnimatedLetters';
+
+const Home = () => {
+
+    const [letterClass] = useState('text-animate')
+    const introOne = ['H', 'i', ',']
+    const introTwo = ['I', '\'', 'm']
+    const nameArray = ['a', 'c', 'o', 'b']
+    const jobArray = ['S', 'o', 'f', 't', 'w', 'a', 'r', 'e', ' ', 'D', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r']
+
+
+
+    return (
+        <div className="container home-page">
+            <div className="text-zone">
+                <h1>
+                    <AnimatedLetters letterClass={letterClass}
+                        strArray={introOne}
+                        idx={9} />
+                    <br />
+                    <AnimatedLetters letterClass={letterClass}
+                        strArray={introTwo}
+                        idx={12} />
+
+                    <img src={LogoTitle} alt="developer" />
+                    <AnimatedLetters letterClass={letterClass}
+                        strArray={nameArray}
+                        idx={15} />
+                    <br />
+                    <AnimatedLetters letterClass={letterClass}
+                        strArray={jobArray}
+                        idx={18} />
+                </h1>
+                <h2>
+                    Fullstack / Java / Python / React
+                </h2>
+                <Link to="/contact" className='flat-button'>CONTACT ME</Link>
+            </div>
+
+        </div>
+    );
+}
+
+export default Home
