@@ -73,8 +73,8 @@
 .info-map {
     position: absolute;
     background-color: #000;
-    top: 50px;
-    right: 30%;
+    top: 0px;
+    right: 2.5%;
     z-index: 9999999;
     width: 267px;
     padding: 20px;
@@ -96,7 +96,7 @@
 .map-wrap {
     float: right;
     width: 53%;
-    height: 100%;
+    height: 90%;
 }
 
 .leaflet-container {
