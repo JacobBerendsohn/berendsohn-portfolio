@@ -21,13 +21,27 @@ const About = () => {
                         />
                     </h1>
                     <p>
-                        Hello my Name is Jacob berendsohn and I am from a small town in Connecticut, I am eagar to join the world of computer science and find a job that best suits my skills and interests.
+                        Hello, my name is Jacob Berendsohn and I am from New Milford Connecticut. 
+                        I am a recently graduated software developer looking for work remote or in office, 
+                        preferably somewhere I find interesting and challenging.
                     </p>
+                    <br/>
                     <p>
-                        Paragraph 2
+                        Some hobbies of mine include snowboarding, reading, 
+                        basketball, working out, cooking, and going on hikes / walks with my dog. I have been coding since I built my first computer at 13, 
+                        and would love to find a company and team I synergize with.
                     </p>
+                    <br/>
                     <p>
-                        Paragraph 3
+                        I attended Marist College and graduated last May with a degree in Computer Science with a concentration on Software Development. 
+                        I also have minors in IT as well as IS.
+                    </p>
+                    <br/>
+                    <p>
+                        Some of the largest projects I worked on in school were a Compiler, which takes in code from a custom language, 
+                        and returns machine instructions to be run on a custom operating system, both of which are based on a 6502 assembler. 
+                        The other large project I worked on was my Capstone project, 
+                        where myself and 4 team members created a secure voting application using a React Native base and Stripe API for authentication.
                     </p>
                 </div>
 
