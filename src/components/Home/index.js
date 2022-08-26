@@ -38,7 +38,7 @@ const Home = () => {
                             idx={18} />
                     </h1>
                     <h2>
-                        Fullstack / Java / Python / React
+                        Java / Python / React / JavaScript
                     </h2>
                     <Link to="/contact" className='flat-button'>CONTACT ME</Link>
                 </div>

@@ -4,6 +4,8 @@ import { useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCss3, faHtml5, faJava, faJsSquare, faPython, faReact } from '@fortawesome/free-brands-svg-icons'
 import Loader from 'react-loaders'
+import myResume from '../../assets/pdfs/Berendsohn_Resume_2022.pdf';
+
 
 const About = () => {
 
@@ -34,7 +36,7 @@ const About = () => {
                     <br/>
                     <p>
                         I attended Marist College and graduated last May with a degree in Computer Science with a concentration on Software Development. 
-                        I also have minors in IT as well as IS.
+                        I also have minors in IT and IS.
                     </p>
                     <br/>
                     <p>
@@ -43,6 +45,10 @@ const About = () => {
                         The other large project I worked on was my Capstone project, 
                         where myself and 4 team members created a secure voting application using a React Native base and Stripe API for authentication.
                     </p>
+                    <br/>
+                    <h2>
+                        To view my resume click <a href={myResume} target='_blank'>here</a>
+                    </h2>
                 </div>
 
                 <div className='stage-cube-container'>
