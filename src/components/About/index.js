@@ -47,7 +47,7 @@ const About = () => {
                     </p>
                     <br/>
                     <h2>
-                        To view my resume click <a href={myResume} target='_blank'>here</a>
+                        To view my resume click <a href={myResume} target='_blank'><b>here</b></a>
                     </h2>
                 </div>
 
