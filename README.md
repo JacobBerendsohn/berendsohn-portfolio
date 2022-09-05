@@ -6,6 +6,24 @@ Icons taken from 'FortAwesome'\
 Live map functionality with leaflet.\
 Scss was used for styling.
 
+# React Amazon Clone
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Built With](#built-with)
+- [Features](#features)
+
+## Overview
+
+This project was my first in a while using React, and was created with the purpose of being my portfolio. Present on the site are my resume, and a contact form connected to my email address. CSS was a large part of this project and using advanced 3D animations was most definitely a challenge, but a fun one at that. This was also my first time using Leaflet for creating live maps like the one on the site.
+
+### Built With
+
+- [Node.js](https://nodejs.org/en/)
+- [Fort Awesome](https://fortawesome.com/)
+- [Leaflet](https://leafletjs.com/)
+
 ### Dependencies
 
 @emailjs/browser: ^3.6.2,\
@@ -29,3 +47,7 @@ react-router-dom: ^6.3.0,\
 react-scripts: 5.0.1,\
 sass: ^1.54.4,\
 web-vitals: ^2.1.4
+
+## Features
+
+This project was built as a personal portfolio site, it houses my resume, and contact information for any interested parties.
