@@ -1,11 +1,3 @@
-### Description
-
-This is a personal portfolio I created using react and Node.js\
-Other projects I have created as well as my resume can be found on this site.\
-Icons taken from 'FortAwesome'\
-Live map functionality with leaflet.\
-Scss was used for styling.
-
 # React Amazon Clone
 
 ## Table of Contents
