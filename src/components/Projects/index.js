@@ -25,7 +25,7 @@ const Projects = () => {
                   <img src={JooglePic} alt="" />
                   <p class="title">Search Engine</p>
                   <div class="overlay"></div>
-                  <div class="button"><a href="https://jacobberendsohn-search-engine.netlify.app/"> Demo </a></div>
+                  <div class="button"><a href="https://jacobberendsohn-search-engine.netlify.app/" target="_blank"> Demo </a></div>
                   <div class="button-code"><a href="https://github.com/JacobBerendsohn/search-engine" target="_blank"> Code </a></div>
                 </div>
               </div>
@@ -34,7 +34,7 @@ const Projects = () => {
                   <img src={NetflixPic} alt="" />
                   <p class="title">Netlfix Clone</p>
                   <div class="overlay"></div>
-                  <div class="button"><a href="https://jacobberendsohn-netflix.netlify.app/"> Demo </a></div>
+                  <div class="button"><a href="https://jacobberendsohn-netflix.netlify.app/" target="_blank"> Demo </a></div>
                   <div class="button-code"><a href="https://github.com/JacobBerendsohn/netflix-react" target="_blank"> Code </a></div>
                 </div>
               </div>

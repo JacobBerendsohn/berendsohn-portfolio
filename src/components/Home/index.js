@@ -39,6 +39,7 @@ const Home = () => {
                         Java / Python / React / JavaScript
                     </h2>
                     <Link to="/contact" className='flat-button'>CONTACT ME</Link>
+                    <Link to="/projects" className='flat-button'>MY PROJECTS</Link>
                 </div>
 
             </div>
