@@ -27,8 +27,7 @@ const Home = () => {
                         <AnimatedLetters letterClass={letterClass}
                             strArray={introTwo}
                             idx={12} />
-
-                        <img src={LogoTitle} alt="developer" />
+                        <img src={LogoTitle} />
                         <AnimatedLetters letterClass={letterClass}
                             strArray={nameArray}
                             idx={15} />
