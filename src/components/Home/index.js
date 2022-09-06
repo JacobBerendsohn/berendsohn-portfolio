@@ -9,8 +9,8 @@ const Home = () => {
 
     const [letterClass] = useState('text-animate')
     const introOne = ['H', 'i', ',']
-    const introTwo = ['I', '\'', 'm']
-    const nameArray = ['a', 'c', 'o', 'b']
+    const introTwo = ['I', '\'', 'm', ' ']
+    const nameArray = ['J', 'a', 'c', 'o', 'b']
     const jobArray = ['S', 'o', 'f', 't', 'w', 'a', 'r', 'e', ' ', 'D', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r']
 
 
@@ -26,11 +26,10 @@ const Home = () => {
                         <br />
                         <AnimatedLetters letterClass={letterClass}
                             strArray={introTwo}
-                            idx={12} />
-                        <img src={LogoTitle} />
+                            idx={13} />
                         <AnimatedLetters letterClass={letterClass}
                             strArray={nameArray}
-                            idx={15} />
+                            idx={16} />
                         <br />
                         <AnimatedLetters letterClass={letterClass}
                             strArray={jobArray}
