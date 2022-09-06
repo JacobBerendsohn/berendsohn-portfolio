@@ -21,21 +21,21 @@ const Projects = () => {
             </h1>
             <div className='grid-container'>
               <div className='grid-item'>
-                <div class="project-container">
+                <div className="project-container">
                   <img src={JooglePic} alt="" />
-                  <p class="title">Search Engine</p>
-                  <div class="overlay"></div>
-                  <div class="button"><a href="https://jacobberendsohn-search-engine.netlify.app/" target="_blank"> Demo </a></div>
-                  <div class="button-code"><a href="https://github.com/JacobBerendsohn/search-engine" target="_blank"> Code </a></div>
+                  <div className="title"><span className='title-span'> Search Engine </span></div>
+                  <div className="overlay"></div>
+                  <div className="button"><a href="https://jacobberendsohn-search-engine.netlify.app/" target="_blank"> Demo </a></div>
+                  <div className="button-code"><a href="https://github.com/JacobBerendsohn/search-engine" target="_blank"> Code </a></div>
                 </div>
               </div>
               <div className='grid-item'>
-                <div class="project-container">
+                <div className="project-container">
                   <img src={NetflixPic} alt="" />
-                  <p class="title">Netlfix Clone</p>
-                  <div class="overlay"></div>
-                  <div class="button"><a href="https://jacobberendsohn-netflix.netlify.app/" target="_blank"> Demo </a></div>
-                  <div class="button-code"><a href="https://github.com/JacobBerendsohn/netflix-react" target="_blank"> Code </a></div>
+                  <div className="title"><span className='title-span'> Netflix Clone </span></div>
+                  <div className="overlay"></div>
+                  <div className="button"><a href="https://jacobberendsohn-netflix.netlify.app/" target="_blank"> Demo </a></div>
+                  <div className="button-code"><a href="https://github.com/JacobBerendsohn/netflix-react" target="_blank"> Code </a></div>
                 </div>
               </div>
             </div>
