@@ -4,6 +4,7 @@ import { useState } from 'react';
 import AnimatedLetters from '../AnimatedLetters';
 import JooglePic from '../../assets/images/Joogle.png';
 import NetflixPic from '../../assets/images/Netflix_Clone.png';
+import AmazonPic from '../../assets/images/Amazon_Clone.png'
 
 const Projects = () => {
   
@@ -36,6 +37,15 @@ const Projects = () => {
                   <div className="overlay"></div>
                   <div className="button"><a href="https://jacobberendsohn-netflix.netlify.app/" target="_blank"> Demo </a></div>
                   <div className="button-code"><a href="https://github.com/JacobBerendsohn/netflix-react" target="_blank"> Code </a></div>
+                </div>
+              </div>
+              <div className='grid-item'>
+                <div className="project-container">
+                  <img src={AmazonPic} alt="" />
+                  <div className="title"><span className='title-span'> Amazon Clone (WIP) </span></div>
+                  <div className="overlay"></div>
+                  <div className="button"><a href="https://jacobberendsohn-amazon.netlify.app/" target="_blank"> Demo </a></div>
+                  <div className="button-code"><a href="https://github.com/JacobBerendsohn/amazon-react" target="_blank"> Code </a></div>
                 </div>
               </div>
             </div>

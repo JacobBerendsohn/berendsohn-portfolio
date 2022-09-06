@@ -12,7 +12,7 @@
   }
 
   .grid-item {
-    margin-right: 20px;
+    margin-right: 40px;
   }
   
   .overlay {
@@ -29,6 +29,7 @@
   .project-container:hover .overlay {
     display: block;
     background: rgba(0, 0, 0, .8);
+    border: solid 2px white;
   }
   
   img {
