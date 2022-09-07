@@ -29,7 +29,7 @@
   .project-container:hover .overlay {
     display: block;
     background: rgba(0, 0, 0, .8);
-    border: solid 2px white;
+    border: solid 2px #E1DCC9;
   }
   
   img {
@@ -47,7 +47,7 @@
     text-align: center;
     text-transform: uppercase;
     font-size: x-large;
-    color: #ffd700;
+    color: #EFB758;
     z-index: 1;
     transition: top .5s ease;
   }
@@ -57,7 +57,7 @@
     background-color: #022c43;
     border-radius: 5px;
     padding: 12px 48px;
-    border: 1px solid #ffd700;
+    border: 1px solid #EFB758;
   }
   
   .project-container:hover .title {
@@ -77,10 +77,14 @@
   
   .button a {
     padding: 12px 48px;
-    color: white;
-    border: solid 2px white;
+    color: #E1DCC9;
+    border: solid 2px #E1DCC9;
     z-index: 1;
     border-radius: 5px;
+    &:hover {
+      background: #E1DCC9;
+      color: #333;
+    }
   }
 
   .button-code {
@@ -96,10 +100,14 @@
   
   .button-code a {
     padding: 12px 48px;
-    color: white;
-    border: solid 2px white;
+    color: #E1DCC9;
+    border: solid 2px #E1DCC9;
     z-index: 1;
     border-radius: 5px;
+    &:hover {
+      background: #E1DCC9;
+      color: #333;
+    }
   }
   
   .project-container:hover .button {
