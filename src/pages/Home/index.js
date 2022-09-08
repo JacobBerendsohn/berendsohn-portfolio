@@ -2,7 +2,7 @@ import LogoTitle from '../../assets/images/j_letter.png';
 import { Link } from 'react-router-dom';
 import './index.scss';
 import { useState } from 'react';
-import AnimatedLetters from '../AnimatedLetters';
+import AnimatedLetters from '../../components/AnimatedLetters'
 import Loader from 'react-loaders';
 
 const Home = () => {

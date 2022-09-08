@@ -1,5 +1,5 @@
 import Loader from 'react-loaders';
-import AnimatedLetters from '../AnimatedLetters';
+import AnimatedLetters from '../../components/AnimatedLetters'
 import './index.scss';
 import { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
