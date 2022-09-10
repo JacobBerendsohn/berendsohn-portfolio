@@ -11,6 +11,8 @@
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
     "animate.css": "^4.1.1",
+    "bootstrap": "^5.2.1",
+    "bootstrap-icons": "^1.9.1",
     "browser-router": "^0.2.0",
     "gsap-trial": "^3.10.4",
     "leaflet": "^1.8.0",
