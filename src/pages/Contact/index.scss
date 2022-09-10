@@ -76,12 +76,11 @@
 }
 
 .info-map {
-    position: absolute;
+    display: block;
+    margin: auto;
     background-color: #000;
-    top: 0px;
-    right: 2.5%;
     z-index: 9999999;
-    width: 267px;
+    width: 700px;
     padding: 20px;
     color: #E1DCC9;;
     font-family: 'Helvetica';
@@ -95,10 +94,12 @@
         display: block;
         padding-top: 20px;
         color: #EFB758;
+        padding-bottom: 10px;
     }
 }
 
 .map-wrap {
+    margin-top: 50px;
     float: right;
     width: 53%;
     height: 90%;
@@ -111,4 +112,8 @@
     opacity: 0;
     animation: backInRight 1s 1.2s;
     animation-fill-mode: forwards;
+}
+
+.contact-map-frame {
+    border: 0;
 }

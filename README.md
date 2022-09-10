@@ -8,13 +8,13 @@
 
 ## Overview
 
-This project was my first in a while using React, and was created with the purpose of being my portfolio. Present on the site are my resume, and a contact form connected to my email address. CSS was a large part of this project and using advanced 3D animations was most definitely a challenge, but a fun one at that. This was also my first time using Leaflet for creating live maps like the one on the site.
+This project was my first in a while using React, and was created with the purpose of being my portfolio. Present on the site are my resume, and a contact form connected to my email address. CSS was a large part of this project and using advanced 3D animations was most definitely a challenge, but a fun one at that. This was also my first time using Google Maps Platform and API for creating live maps like the one on the site.
 
 ### Built With
 
 - [Node.js](https://nodejs.org/en/)
 - [Fort Awesome](https://fortawesome.com/)
-- [Leaflet](https://leafletjs.com/)
+- [Google Maps Platform](https://mapsplatform.google.com/)
 
 ### Dependencies
 

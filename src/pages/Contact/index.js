@@ -83,20 +83,15 @@ const Contact = () => {
                         </form>
                     </div>
                 </div>
-                <div className='info-map'>
-                    Jacob Berendsohn,
-                    <br />
-                    New York / Connecticut
-                    <br />
-                    <span>berendsohnjacob@gmail.com</span>
-                </div>
                 <div className='map-wrap'>
-                    <MapContainer center={[41.5745448803117, -73.41080100193686]} zoom={10}>
-                        <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-                        <Marker position={[41.5745448803117, -73.41080100193686]}>
-                            <Popup> My Area </Popup>
-                        </Marker>
-                    </MapContainer>
+                    <div className='info-map'>
+                        Jacob Berendsohn,
+                        <br />
+                        New York / Connecticut
+                        <br />
+                        <span>berendsohnjacob@gmail.com</span>
+                        <iframe width="700" height="600" className='contact-map-frame' loading="lazy" allowFullScreen src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJdd4sb87154kRSJ3AUfGscQs&key=AIzaSyCcqa-IIXbM8qkyuHFl-HsSU4liaFdi1R0"></iframe>
+                    </div>
                 </div>
 
             </div>
