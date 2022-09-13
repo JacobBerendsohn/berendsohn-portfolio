@@ -77,7 +77,7 @@ const Contact = () => {
                         New York / Connecticut
                         <br />
                         <span>berendsohnjacob@gmail.com</span>
-                        <iframe width="700" height="600" className='contact-map-frame' loading="lazy" allowFullScreen src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJdd4sb87154kRSJ3AUfGscQs&key=AIzaSyCcqa-IIXbM8qkyuHFl-HsSU4liaFdi1R0"></iframe>
+                        <iframe className='contact-map-frame' loading="lazy" allowFullScreen src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJdd4sb87154kRSJ3AUfGscQs&key=AIzaSyCcqa-IIXbM8qkyuHFl-HsSU4liaFdi1R0"></iframe>
                     </div>
                 </div>
 
